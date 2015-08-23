@@ -5,7 +5,7 @@ function Message(mID) {
 
       $.ajax({    //create an ajax request to load_page.php
         type: "GET",
-        url: "messages.php?mid="+mID,  		
+        url: "http://bfqualitysolutions.pixub.com/messages.php?mid="+mID,  		
         dataType: "html",   //expect html to be returned                
         success: function(response){                    
             $("#msgT").html(response); 

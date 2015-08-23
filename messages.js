@@ -4,7 +4,7 @@ $(document).ready(function() {
 
       $.ajax({    //create an ajax request to load_page.php
         type: "GET",
-        url: "message.php",             
+        url: "http://bfqualitysolutions.pixub.com/message.php",             
         dataType: "html",   //expect html to be returned                
         success: function(response){                    
             $("#Tmsgs").html(response); 
