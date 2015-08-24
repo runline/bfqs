@@ -33,7 +33,7 @@ xmlhttp.send();
 
       $.ajax({    //create an ajax request to load_page.php
         type: "GET",
-        url: "applicants.php",             
+        url: "http://bfqualitysolutions.pixub.com/applicants.php",             
         dataType: "html",   //expect html to be returned                
         success: function(response){                    
             $("#applicantsT").html(response); 

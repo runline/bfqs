@@ -7,7 +7,7 @@ $("button#submitlogin").click( function() {
 		        $("#loginform :input").serializeArray(), 
 				function(data) {
 					var xmlhttp = new XMLHttpRequest();
-					var url = "http://localhost/bfquality/login.php?username="+$("#username").val()+"&password="+$("#password").val()+"";
+					var url = "http://bfqualitysolutions.pixub.com/login.php?username="+$("#username").val()+"&password="+$("#password").val()+"";
 
 					xmlhttp.onreadystatechange=function() {
 						if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
